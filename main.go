@@ -44,6 +44,6 @@ func main() {
 	// time.Sleep(5 * time.Second) // burda main fonkisyonun nun 5 sn sonra başlamsının söyeldik
 	// fmt.Println("main bitti")
 
-	interfacess.Demo1()
+	interfacess.Demo2()
 
 }

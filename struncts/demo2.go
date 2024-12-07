@@ -8,7 +8,7 @@ type constumer struct {
 	age       int
 }
 
-func (c constumer) save() {
+func (c constumer) save() { // struct için bir methıd oluşturduk
 	fmt.Println("eklendi")
 }
 
