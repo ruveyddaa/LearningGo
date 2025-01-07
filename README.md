@@ -1,2 +1,2 @@
 # LearningGo
-I am just learning go
+Bu reopo Goleng öğrenme sürecim de yazdığım kodlar ve öğrnemyi kolaylaştıtıcak notalr içermektedir.
