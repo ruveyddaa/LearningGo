@@ -8,7 +8,7 @@ type constumer struct {
 	age       int
 }
 
-func (c constumer) save() { // struct için bir methıd oluşturduk
+func (c constumer) save() { // struct için bir methıd oluşturduk   zorunlu değil bunsuzda bir structı main içinde çalığıarbilşrsin am abu stracta bir fonksiyon atar ve strctla oluşturdupun obj ile bu fonkişsyonu kolayca çağırabilirsin
 	fmt.Println("eklendi")
 }
 

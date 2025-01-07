@@ -1,6 +1,8 @@
 package main
 
-import "golesson/interfacess"
+import (
+	"golesson/error_handiling"
+)
 
 // go da PaccalCase yazıluır yani ilk harf byük
 func main() {
@@ -25,16 +27,15 @@ func main() {
 	// 			        pointers.Demo1(sayi) // buraya sayının kendisi gönderilmnez sayının gösterdiği 20 değeri gönderilir bu yüzden demo fonksiyonndaki ssayı değerindeki değikliklik burdaki sayı değerini etkilemez
 	// 			        fmt.Println("maindeki sayi", sayi)
 
-	// 					sayi2 := 30
-	// 		            pointers.Demo2(&sayi2)
-	// 		            fmt.Println("maindeki sayi", sayi2)
+	// sayi2 := 30
+	// fmt.Println("maindeki sayi", sayi2)
 
-	// 					sayilar := []int{1, 2, 3}
-	// 	                pointers.Demo3(sayilar)
-	// 	                fmt.Println("maindaki sayı", sayilar[0])  // araylerde bu değişiklik her yerde değişir çünkü ereyer zaten bir şeyin aderes değerine referans verir
+	// sayilar := []int{1, 2, 3}
+	// pointers.Demo3(sayilar)
+	// fmt.Println("maindaki sayı", sayilar[0])  // araylerde bu değişiklik her yerde değişir çünkü ereyer zaten bir şeyin aderes değerine referans verir
 
-	//                   struncts.Demo1()
-	//                   struncts.Demo2()
+	// struncts.Demo1()
+	// struncts.Demo2()
 
 	// goroutimes.Ciftsayilar() // burda görüldüğü gibi snytax sıarsına göre fonksiyonlar çalıştı
 	// goroutimes.Teksayilar()
@@ -44,6 +45,13 @@ func main() {
 	// time.Sleep(5 * time.Second) // burda main fonkisyonun nun 5 sn sonra başlamsının söyeldik
 	// fmt.Println("main bitti")
 
-	interfacess.Demo2()
+	// interfacess.Demo1()
+	// interfacess.Demo2()
+
+	// defer_stantment.B()
+	// defer_stantment.Test()
+	// defer_stantment.Demo3()
+
+	error_handiling.Demo1()
 
 }

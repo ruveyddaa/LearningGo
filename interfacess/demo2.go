@@ -47,4 +47,5 @@ func Demo2() {
 	total := CalculateMontlyPayment(credits)
 
 	fmt.Println("toplam ödeme", total)
+
 }
