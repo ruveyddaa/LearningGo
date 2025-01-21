@@ -1,9 +1,5 @@
 package main
 
-import (
-	"golesson/error_handiling"
-)
-
 // go da PaccalCase yazıluır yani ilk harf byük
 func main() {
 
@@ -52,6 +48,8 @@ func main() {
 	// defer_stantment.Test()
 	// defer_stantment.Demo3()
 
-	error_handiling.Demo1()
+	// error_handiling.Demo1()
+
+	// string_functions.Demo1()
 
 }

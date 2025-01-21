@@ -14,4 +14,6 @@ func Demo1() {
 		fmt.Println(f.Name()) // name de os paketinde olan bir method dur ve f i bir obj gibi düşün f ile name methodunu çağırdık
 	}
 
+	// şu anda demo1.txt diye bir dosya oluşturduk ama bunu dzigi main ile aynı yerde olmalı çünkü mainde kod çalışıyo
+
 }
