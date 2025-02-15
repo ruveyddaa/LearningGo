@@ -1,5 +1,7 @@
 package main
 
+import "golesson/restful"
+
 // go da PaccalCase yazıluır yani ilk harf byük
 func main() {
 
@@ -51,5 +53,7 @@ func main() {
 	// error_handiling.Demo1()
 
 	// string_functions.Demo1()
+
+	restful.Demo1()
 
 }
